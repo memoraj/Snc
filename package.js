@@ -76,8 +76,8 @@
     var AllSourceProvider = /** @class */ (function () {
         function AllSourceProvider() {
             this.sourceProviderMetadata = {
-                name: 'Watch now',
-                premium: false
+                name: 'Watch Now',
+                premium: true
             };
         }
         AllSourceProvider.prototype.search = function (env, request) {
