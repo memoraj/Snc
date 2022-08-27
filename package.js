@@ -2,7 +2,7 @@
 {
   "name": "Watch Now",
   "id": "com.syncler.watch.now",
-  "version": 1.1,
+  "version": 1,
   "classPath": "watchNow.WatchNowPackage",
   "permaUrl": "https://raw.githubusercontent.com/synclerd/watch-now-starter/main/package.js"
 }
@@ -28,7 +28,22 @@
             service: 'Disney+',
             androidPackageNames: ['com.disney.disneyplus']
         },
-
+        {
+            service: 'Hulu',
+            androidPackageNames: ['com.hulu.plus', 'com.hulu.livingroomplus']
+        },
+        {
+            service: 'Crackle',
+            androidPackageNames: ['com.gotv.crackle.handset', 'com.crackle.androidtv', 'com.crackle.androidtv.svod']
+        },
+        {
+            service: 'Tubi',
+            androidPackageNames: ['com.tubitv']
+        },
+        {
+            service: 'FXNow',
+            androidPackageNames: ['com.fxnetworks.fxnow']
+        },
         {
             service: 'Google TV',
             androidPackageNames: ['com.google.android.videos']
@@ -37,9 +52,17 @@
             service: 'Prime Video',
             androidPackageNames: ['com.amazon.avod.thirdpartyclient', 'com.amazon.amazonvideo.livingroom', 'com.amazon.amazonvideo.livingroom.firetv']
         },
-		{
-            service: 'Crunchyroll',
-            androidPackageNames: ['com.crunchyroll.crunchyroid']
+        {
+            service: 'HBO GO',
+            androidPackageNames: ['com.hbo.go']
+        },
+        {
+            service: 'HBO MAX',
+            androidPackageNames: ['com.hbo.hbonow']
+        },
+        {
+            service: 'VUDU',
+            androidPackageNames: ['air.com.vudu.air.DownloaderTablet', 'com.nvidia.vuduapp']
         },
         {
             service: 'Youtube',
