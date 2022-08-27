@@ -65,6 +65,10 @@
             androidPackageNames: ['air.com.vudu.air.DownloaderTablet', 'com.nvidia.vuduapp']
         },
         {
+            service: 'Crunchyroll',
+            androidPackageNames: ['com.crunchyroll.crunchyroid']
+        },
+        {
             service: 'Youtube',
             androidPackageNames: ['com.google.android.youtube', 'com.google.android.youtube.tv', 'com.amazon.firetv.youtube', 'com.google.android.youtube.googletv', 'com.google.android.youtube.googletv']
         }
